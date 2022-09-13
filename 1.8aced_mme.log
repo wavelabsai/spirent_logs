@@ -1,0 +1,784 @@
+000544 Tue Sep 13 01:20:38 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+000545 Tue Sep 13 01:20:38 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000546 Tue Sep 13 01:20:38 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+000547 Tue Sep 13 01:20:38 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000548 Tue Sep 13 01:20:38 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 2
+000549 Tue Sep 13 01:20:38 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000550 Tue Sep 13 01:20:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+000551 Tue Sep 13 01:20:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 826, Reset Flag = 0. Connected UEs = 0 
+000552 Tue Sep 13 01:20:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 826. No Connected UEs. Reset Flag = 0
+000553 Tue Sep 13 01:20:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 826 
+000554 Tue Sep 13 01:23:35 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000555 Tue Sep 13 01:23:38 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000556 Tue Sep 13 01:23:38 2022 7F72BEAE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000557 Tue Sep 13 01:23:38 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :00 f1 10 
+000558 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000559 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000560 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000561 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000562 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000563 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000564 Tue Sep 13 01:23:41 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [0] 
+000565 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000566 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+000567 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000568 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000569 Tue Sep 13 01:23:41 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 83886080
+000570 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000571 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000572 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+000573 Tue Sep 13 01:23:41 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 3X 
+000574 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545662] auth-info
+000575 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000576 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000577 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000578 Tue Sep 13 01:23:41 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 3
+000579 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000580 Tue Sep 13 01:23:41 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545662] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 83886080
+000581 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000582 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000583 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000584 Tue Sep 13 01:23:41 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+000585 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000586 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000587 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000588 Tue Sep 13 01:23:41 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545662] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 83886080
+000589 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000590 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000591 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000592 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 3
+000593 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545662
+000594 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545662] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000595 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000596 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000597 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000598 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000599 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000600 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000601 Tue Sep 13 01:23:41 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545662] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 83886080
+000602 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000604 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000603 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000605 Tue Sep 13 01:23:41 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000606 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545662] UE STATE - CONNECTED.
+000607 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000608 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000609 Tue Sep 13 01:23:41 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000610 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000611 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000613 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000612 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000614 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000615 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000616 Tue Sep 13 01:23:42 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [1] 
+000617 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000618 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+000619 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000620 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000621 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+000622 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000623 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+000624 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000625 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+000626 Tue Sep 13 01:23:42 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 4 AMF_UE_NGAP_ID = 4 gNB_UE_NGAP_ID = 285212673
+000627 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+000628 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545662] ip-addr pdu session: [5]
+000629 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000630 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000631 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+000632 Tue Sep 13 01:23:42 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 4X 
+000633 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545663] auth-info
+000634 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+000635 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+000636 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545662] pdu session: [5]
+000637 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000638 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000639 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000640 Tue Sep 13 01:23:42 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 4
+000641 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000642 Tue Sep 13 01:23:42 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545663] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 4 AMF_UE_NGAP_ID = 4 gNB_UE_NGAP_ID = 285212673
+000643 Tue Sep 13 01:23:42 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+000644 Tue Sep 13 01:23:42 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+000645 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000646 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+000647 Tue Sep 13 01:23:42 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+000648 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+000649 Tue Sep 13 01:23:42 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+000650 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+000651 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000652 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000653 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000654 Tue Sep 13 01:23:42 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+000655 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000656 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000657 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000658 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000659 Tue Sep 13 01:23:42 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545663] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 4 AMF_UE_NGAP_ID = 4 gNB_UE_NGAP_ID = 285212673
+000660 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000661 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+000662 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545662]
+000663 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000664 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000665 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000666 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 4
+000667 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545663
+000668 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545663] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000669 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000670 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000671 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000672 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000673 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000674 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000675 Tue Sep 13 01:23:42 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545663] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 4 gNB_UE_NGAP_ID = 285212673
+000676 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000677 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000679 Tue Sep 13 01:23:42 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000678 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000680 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545663] UE STATE - CONNECTED.
+000681 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000682 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000683 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000684 Tue Sep 13 01:23:42 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+000685 Tue Sep 13 01:23:42 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+000686 Tue Sep 13 01:23:42 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+000687 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000689 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000690 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000691 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000692 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000693 Tue Sep 13 01:23:43 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [2] 
+000694 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000695 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+000696 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000688 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000697 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000698 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000699 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000700 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+000701 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+000702 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+000703 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+000704 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545663] ip-addr pdu session: [5]
+000705 Tue Sep 13 01:23:43 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 5 AMF_UE_NGAP_ID = 5 gNB_UE_NGAP_ID = 301989890
+000706 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+000707 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+000708 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545663] pdu session: [5]
+000709 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000710 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000711 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+000712 Tue Sep 13 01:23:43 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 5X 
+000713 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545664] auth-info
+000714 Tue Sep 13 01:23:43 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+000715 Tue Sep 13 01:23:43 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+000716 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+000717 Tue Sep 13 01:23:43 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+000718 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+000719 Tue Sep 13 01:23:43 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+000720 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+000721 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000722 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000723 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000724 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000725 Tue Sep 13 01:23:43 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 5
+000726 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000727 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000728 Tue Sep 13 01:23:43 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545664] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 5 AMF_UE_NGAP_ID = 5 gNB_UE_NGAP_ID = 301989890
+000729 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000730 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+000731 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545663]
+000732 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000733 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000734 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000735 Tue Sep 13 01:23:43 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+000736 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000737 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000738 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000739 Tue Sep 13 01:23:43 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545664] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 5 AMF_UE_NGAP_ID = 5 gNB_UE_NGAP_ID = 301989890
+000740 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000741 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000742 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000743 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 5
+000744 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545664
+000745 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545664] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000746 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000747 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000748 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000749 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000750 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000751 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000752 Tue Sep 13 01:23:43 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545664] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 5 gNB_UE_NGAP_ID = 301989890
+000753 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000754 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000755 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000756 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545664] UE STATE - CONNECTED.
+000757 Tue Sep 13 01:23:43 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000758 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000759 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000760 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000761 Tue Sep 13 01:23:43 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+000762 Tue Sep 13 01:23:43 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+000763 Tue Sep 13 01:23:43 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+000764 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000765 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000766 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000767 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000768 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000769 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000770 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000771 Tue Sep 13 01:23:44 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [3] 
+000772 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000773 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+000774 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000775 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000776 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000777 Tue Sep 13 01:23:44 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 6 AMF_UE_NGAP_ID = 6 gNB_UE_NGAP_ID = 318767107
+000778 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+000779 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+000780 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+000781 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+000782 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545664] ip-addr pdu session: [5]
+000783 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000784 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000785 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+000786 Tue Sep 13 01:23:44 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 6X 
+000787 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545665] auth-info
+000788 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+000789 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+000790 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545664] pdu session: [5]
+000791 Tue Sep 13 01:23:44 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+000792 Tue Sep 13 01:23:44 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+000793 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+000794 Tue Sep 13 01:23:44 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+000795 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+000796 Tue Sep 13 01:23:44 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+000797 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+000798 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000799 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000800 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000801 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000802 Tue Sep 13 01:23:44 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 6
+000803 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000804 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000805 Tue Sep 13 01:23:44 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545665] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 6 AMF_UE_NGAP_ID = 6 gNB_UE_NGAP_ID = 318767107
+000806 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000807 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000808 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+000809 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545664]
+000810 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000811 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000812 Tue Sep 13 01:23:44 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+000813 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000814 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000815 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000816 Tue Sep 13 01:23:44 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545665] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 6 AMF_UE_NGAP_ID = 6 gNB_UE_NGAP_ID = 318767107
+000817 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000818 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000819 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000820 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 6
+000821 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545665
+000822 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545665] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000823 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000824 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000825 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000826 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000827 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000828 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000829 Tue Sep 13 01:23:44 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545665] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 6 gNB_UE_NGAP_ID = 318767107
+000830 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000831 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000832 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545665] UE STATE - CONNECTED.
+000833 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000834 Tue Sep 13 01:23:44 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000835 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000836 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000837 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000838 Tue Sep 13 01:23:44 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+000839 Tue Sep 13 01:23:44 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+000840 Tue Sep 13 01:23:44 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+000841 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000842 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000843 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000844 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000845 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000846 Tue Sep 13 01:23:45 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [4] 
+000847 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000848 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+000849 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000850 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000851 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000852 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000853 Tue Sep 13 01:23:45 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 7 AMF_UE_NGAP_ID = 7 gNB_UE_NGAP_ID = 318767108
+000854 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000855 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+000856 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+000857 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+000858 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+000859 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545665] ip-addr pdu session: [5]
+000860 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000861 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000862 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+000863 Tue Sep 13 01:23:45 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 7X 
+000864 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545666] auth-info
+000865 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+000866 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+000867 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545665] pdu session: [5]
+000868 Tue Sep 13 01:23:45 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+000869 Tue Sep 13 01:23:45 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+000870 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+000871 Tue Sep 13 01:23:45 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+000872 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+000873 Tue Sep 13 01:23:45 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+000874 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+000875 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000876 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000877 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000878 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000879 Tue Sep 13 01:23:45 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 7
+000880 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000881 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000882 Tue Sep 13 01:23:45 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545666] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 7 AMF_UE_NGAP_ID = 7 gNB_UE_NGAP_ID = 318767108
+000883 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000884 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+000885 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545665]
+000886 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000887 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000888 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000889 Tue Sep 13 01:23:45 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+000890 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000891 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000892 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000893 Tue Sep 13 01:23:45 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545666] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 7 AMF_UE_NGAP_ID = 7 gNB_UE_NGAP_ID = 318767108
+000894 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000895 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000896 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000897 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 7
+000898 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545666
+000899 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545666] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000900 Tue Sep 13 01:23:45 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+000901 Tue Sep 13 01:23:45 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+000902 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+000903 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000904 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000905 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000906 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000907 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000908 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000909 Tue Sep 13 01:23:45 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545666] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 7 gNB_UE_NGAP_ID = 318767108
+000910 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000911 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000912 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000913 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545666] UE STATE - CONNECTED.
+000914 Tue Sep 13 01:23:45 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000915 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000916 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000917 Tue Sep 13 01:23:45 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000918 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000919 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000920 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000921 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000922 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000923 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000924 Tue Sep 13 01:23:46 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [5] 
+000925 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000926 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+000927 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000928 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000929 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000930 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+000931 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000932 Tue Sep 13 01:23:46 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 8 AMF_UE_NGAP_ID = 8 gNB_UE_NGAP_ID = 335544325
+000933 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+000934 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+000935 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+000936 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545666] ip-addr pdu session: [5]
+000937 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000938 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000939 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+000940 Tue Sep 13 01:23:46 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 8X 
+000941 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545667] auth-info
+000942 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+000943 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+000944 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545666] pdu session: [5]
+000945 Tue Sep 13 01:23:46 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+000946 Tue Sep 13 01:23:46 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+000947 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+000948 Tue Sep 13 01:23:46 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+000949 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+000950 Tue Sep 13 01:23:46 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+000951 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+000952 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000953 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000954 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000955 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000956 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000957 Tue Sep 13 01:23:46 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 8
+000958 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000959 Tue Sep 13 01:23:46 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545667] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 8 AMF_UE_NGAP_ID = 8 gNB_UE_NGAP_ID = 335544325
+000960 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000961 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+000962 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545666]
+000963 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000964 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000965 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000966 Tue Sep 13 01:23:46 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+000967 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000968 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000969 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000970 Tue Sep 13 01:23:46 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545667] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 8 AMF_UE_NGAP_ID = 8 gNB_UE_NGAP_ID = 335544325
+000971 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000972 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000973 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000974 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 8
+000975 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545667
+000976 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545667] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000977 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000978 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000979 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000980 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000981 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000982 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000983 Tue Sep 13 01:23:46 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545667] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 8 gNB_UE_NGAP_ID = 335544325
+000984 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000985 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000986 Tue Sep 13 01:23:46 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000987 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000988 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545667] UE STATE - CONNECTED.
+000989 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000990 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000991 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000992 Tue Sep 13 01:23:46 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+000993 Tue Sep 13 01:23:46 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+000994 Tue Sep 13 01:23:46 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+000995 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000996 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000997 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000998 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000999 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001000 Tue Sep 13 01:23:47 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [6] 
+001001 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+001002 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+001003 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001004 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001005 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001006 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001007 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001008 Tue Sep 13 01:23:47 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 9 AMF_UE_NGAP_ID = 9 gNB_UE_NGAP_ID = 335544326
+001009 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+001010 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+001011 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+001012 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+001013 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545667] ip-addr pdu session: [5]
+001014 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001015 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001016 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+001017 Tue Sep 13 01:23:47 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 9X 
+001018 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545668] auth-info
+001019 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+001020 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+001021 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545667] pdu session: [5]
+001022 Tue Sep 13 01:23:47 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+001023 Tue Sep 13 01:23:47 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+001024 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+001025 Tue Sep 13 01:23:47 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+001026 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+001027 Tue Sep 13 01:23:47 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+001028 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+001029 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001030 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001031 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001032 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001033 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001034 Tue Sep 13 01:23:47 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 9
+001035 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001036 Tue Sep 13 01:23:47 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545668] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 9 AMF_UE_NGAP_ID = 9 gNB_UE_NGAP_ID = 335544326
+001037 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001038 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+001039 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545667]
+001040 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001041 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001042 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+001043 Tue Sep 13 01:23:47 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+001044 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+001045 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001046 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001047 Tue Sep 13 01:23:47 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545668] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 9 AMF_UE_NGAP_ID = 9 gNB_UE_NGAP_ID = 335544326
+001048 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001049 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001050 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+001051 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 9
+001052 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545668
+001053 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545668] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+001054 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+001055 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+001056 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+001057 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+001058 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001059 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001060 Tue Sep 13 01:23:47 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545668] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 9 gNB_UE_NGAP_ID = 335544326
+001061 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001063 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001064 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545668] UE STATE - CONNECTED.
+001062 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001065 Tue Sep 13 01:23:47 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001066 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001067 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+001068 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+001069 Tue Sep 13 01:23:47 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+001070 Tue Sep 13 01:23:47 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+001071 Tue Sep 13 01:23:47 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+001072 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001073 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+001074 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001075 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+001076 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001077 Tue Sep 13 01:23:48 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [7] 
+001078 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+001079 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+001080 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001081 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001082 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001083 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001084 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001085 Tue Sep 13 01:23:48 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 10 AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 352321543
+001086 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+001087 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+001088 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+001089 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+001090 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545668] ip-addr pdu session: [5]
+001091 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001092 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001093 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+001094 Tue Sep 13 01:23:48 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 10X 
+001095 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545669] auth-info
+001096 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+001097 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+001098 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545668] pdu session: [5]
+001099 Tue Sep 13 01:23:48 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+001100 Tue Sep 13 01:23:48 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+001101 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+001102 Tue Sep 13 01:23:48 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+001103 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+001104 Tue Sep 13 01:23:48 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+001105 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+001106 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001107 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001108 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001109 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001110 Tue Sep 13 01:23:48 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 10
+001111 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001112 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001113 Tue Sep 13 01:23:48 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545669] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 10 AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 352321543
+001114 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001115 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+001116 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545668]
+001117 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001118 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001119 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+001120 Tue Sep 13 01:23:48 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+001121 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+001122 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001123 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001124 Tue Sep 13 01:23:48 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545669] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 10 AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 352321543
+001125 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001126 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001127 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+001128 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 10
+001129 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545669
+001130 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545669] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+001131 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+001132 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+001133 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+001134 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+001135 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001136 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001137 Tue Sep 13 01:23:48 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545669] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 352321543
+001138 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001139 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001140 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545669] UE STATE - CONNECTED.
+001141 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001142 Tue Sep 13 01:23:48 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001143 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001144 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+001145 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+001146 Tue Sep 13 01:23:48 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+001147 Tue Sep 13 01:23:48 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+001148 Tue Sep 13 01:23:48 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+001149 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001150 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+001151 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001152 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+001153 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001154 Tue Sep 13 01:23:49 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [8] 
+001155 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+001156 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+001157 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001158 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001159 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001160 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001161 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001162 Tue Sep 13 01:23:49 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 11 AMF_UE_NGAP_ID = 11 gNB_UE_NGAP_ID = 436207624
+001163 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+001164 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+001165 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+001166 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+001167 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545669] ip-addr pdu session: [5]
+001168 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001169 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001170 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+001171 Tue Sep 13 01:23:49 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 11X 
+001172 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545670] auth-info
+001173 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+001174 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+001175 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545669] pdu session: [5]
+001176 Tue Sep 13 01:23:49 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+001177 Tue Sep 13 01:23:49 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+001178 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+001179 Tue Sep 13 01:23:49 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+001180 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+001181 Tue Sep 13 01:23:49 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+001182 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+001183 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001184 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001185 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001186 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+001187 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545669]
+001188 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001189 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001190 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001191 Tue Sep 13 01:23:49 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 11
+001192 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001193 Tue Sep 13 01:23:49 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545670] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 11 AMF_UE_NGAP_ID = 11 gNB_UE_NGAP_ID = 436207624
+001194 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001195 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001196 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+001197 Tue Sep 13 01:23:49 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+001198 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+001199 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001200 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001201 Tue Sep 13 01:23:49 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545670] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 11 AMF_UE_NGAP_ID = 11 gNB_UE_NGAP_ID = 436207624
+001202 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001203 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001204 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+001205 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 11
+001206 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545670
+001207 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545670] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+001208 Tue Sep 13 01:23:49 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+001209 Tue Sep 13 01:23:49 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+001210 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+001211 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+001212 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+001213 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+001214 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+001215 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001216 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001217 Tue Sep 13 01:23:49 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545670] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 11 gNB_UE_NGAP_ID = 436207624
+001218 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001219 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001220 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545670] UE STATE - CONNECTED.
+001221 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001222 Tue Sep 13 01:23:49 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001223 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001224 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+001225 Tue Sep 13 01:23:49 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+001226 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001227 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+001228 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001229 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+001230 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001231 Tue Sep 13 01:23:50 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [9] 
+001232 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+001233 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+001234 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001235 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001236 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001238 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001239 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+001240 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+001241 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+001242 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+001243 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545670] ip-addr pdu session: [5]
+001237 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001244 Tue Sep 13 01:23:50 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 12 AMF_UE_NGAP_ID = 12 gNB_UE_NGAP_ID = 452984841
+001245 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001246 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001247 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+001248 Tue Sep 13 01:23:50 2022 7F72C2AEF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 12X 
+001249 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545671] auth-info
+001250 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+001251 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+001252 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545670] pdu session: [5]
+001253 Tue Sep 13 01:23:50 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+001254 Tue Sep 13 01:23:50 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+001255 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+001256 Tue Sep 13 01:23:50 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+001257 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+001258 Tue Sep 13 01:23:50 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+001259 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+001260 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001261 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001262 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001263 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+001264 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545670]
+001265 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001266 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001267 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001268 Tue Sep 13 01:23:50 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 12
+001269 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001270 Tue Sep 13 01:23:50 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545671] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 12 AMF_UE_NGAP_ID = 12 gNB_UE_NGAP_ID = 452984841
+001271 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001272 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001273 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+001274 Tue Sep 13 01:23:50 2022 7F72C2AEF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+001275 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+001276 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001277 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001278 Tue Sep 13 01:23:50 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545671] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 12 AMF_UE_NGAP_ID = 12 gNB_UE_NGAP_ID = 452984841
+001279 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001280 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001281 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+001282 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 12
+001283 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545671
+001284 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545671] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+001285 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+001286 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+001287 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+001288 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+001289 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001290 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001291 Tue Sep 13 01:23:50 2022 7F72BEAE7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545671] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 12 gNB_UE_NGAP_ID = 452984841
+001292 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001293 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001294 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001295 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545671] UE STATE - CONNECTED.
+001296 Tue Sep 13 01:23:50 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001297 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001298 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+001299 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+001300 Tue Sep 13 01:23:50 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+001301 Tue Sep 13 01:23:50 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+001302 Tue Sep 13 01:23:50 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+001303 Tue Sep 13 01:23:51 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001304 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001305 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+001306 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+001307 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+001308 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+001309 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545671] ip-addr pdu session: [5]
+001310 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+001311 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+001312 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545671] pdu session: [5]
+001313 Tue Sep 13 01:23:51 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+001314 Tue Sep 13 01:23:51 2022 7F72B7AD9700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+001315 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+001316 Tue Sep 13 01:23:51 2022 7F72C2AEF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+001317 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+001318 Tue Sep 13 01:23:51 2022 7F72C2AEF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+001319 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+001320 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001321 Tue Sep 13 01:23:51 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+001322 Tue Sep 13 01:23:51 2022 7F72BEAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001323 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+001324 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545671]
+001325 Tue Sep 13 01:23:51 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+001326 Tue Sep 13 01:23:51 2022 7F72BC2E2700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+001327 Tue Sep 13 01:23:51 2022 7F72C2AEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
