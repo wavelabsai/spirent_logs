@@ -1,0 +1,10 @@
+000389 Tue Sep 13 01:46:42 2022 7FB1311E8700 DEBUG S1AP   tasks/s1ap/s1ap_mme.cpp         :0115    S1AP ZMQ latency: 604.
+000390 Tue Sep 13 01:46:42 2022 7FB1311E8700 DEBUG S1AP   tasks/s1ap/s1ap_mme.cpp         :0360    Cleaning S1AP
+000391 Tue Sep 13 01:46:42 2022 7FB1311E8700 DEBUG S1AP   tasks/s1ap/s1ap_state_manager.cp:0105    No keys in the enb hashtable
+000392 Tue Sep 13 01:46:42 2022 7FB1321EA700 INFO  GTPv1- lib/openflow/controller/Controll:0081    Stopped openflow controller
+000393 Tue Sep 13 01:46:42 2022 7FB1311E8700 DEBUG S1AP   tasks/s1ap/s1ap_mme.cpp         :0370    Cleaning S1AP: DONE
+000394 Tue Sep 13 01:46:42 2022 7FB1321EA700 DEBUG SPGW-A tasks/sgw/sgw_task.c            :0280    Finished cleaning up SGW
+000395 Tue Sep 13 01:46:42 2022 7FB1319E9700 DEBUG SGW_S8 tasks/sgw_s8/sgw_s8_task.c      :0147    Finished cleaning up SGW_S8 task 
+000396 Tue Sep 13 01:46:42 2022 7FB12F1E4700 INFO  S6A    tasks/async_grpc_service/grpc_as:0089    CQ is shutdown, pop out all messages from CQ and release the messages 
+000397 Tue Sep 13 01:46:42 2022 7FB12D1E0700 ERROR S6A    tasks/async_grpc_service/grpc_as:0073    encountered error while processing request
+000398 Tue Sep 13 01:46:44 2022 7FB13DA5F980 DEBUG NGAP   tasks/ngap/ngap_state_manager.cp:0174    No keys in the amf hashtable
