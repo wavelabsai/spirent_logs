@@ -1,0 +1,478 @@
+000376 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0533        SGi MTU (read)........: 1500
+000377 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0535        NAT ..................: true
+000378 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0537        User TCP MSS clamping : true
+000379 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0539        User IP masquerading  : false
+000380 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0541    - PCEF support ...........: false (in development)
+000381 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0583    - DNS Configuration:
+000382 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0584        IPv4 Primary Address ..........: 8.8.8.8
+000383 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0586        IPv4 Secondary Address ..........: 8.8.4.4
+000384 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0588    - Helpers:
+000385 Tue Sep 13 02:05:31 2022 7F4A522DC980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0589        Push PCO (DNS+MTU) ........: false
+000386 Tue Sep 13 02:06:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000387 Tue Sep 13 02:06:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000388 Tue Sep 13 02:06:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000389 Tue Sep 13 02:06:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000390 Tue Sep 13 02:06:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000391 Tue Sep 13 02:06:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000392 Tue Sep 13 02:06:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000393 Tue Sep 13 02:06:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000394 Tue Sep 13 02:06:26 2022 7F4A499F0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000395 Tue Sep 13 02:06:45 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0069    Ppid NGAP in sctp_itti_send_new_association 
+000396 Tue Sep 13 02:06:45 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000397 Tue Sep 13 02:06:45 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 2969.
+000398 Tue Sep 13 02:06:45 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :0847    Create gNB context for assoc_id: 834
+000399 Tue Sep 13 02:06:48 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000400 Tue Sep 13 02:06:48 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000401 Tue Sep 13 02:06:48 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 633.
+000403 Tue Sep 13 02:06:48 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :0385    NGAP_FIND_PROTOCOLIE_BY_ID: /home/vagrant/magma/lte/gateway/c/core/oai/tasks/ngap/ngap_amf_handlers.c 385: Optional ie is NULL
+000402 Tue Sep 13 02:06:48 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :0379    New ng setup request incoming from home gNB id: 0000000
+000404 Tue Sep 13 02:06:48 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_ta.c        :0085     :, 3
+000405 Tue Sep 13 02:06:48 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :00 f1 10 
+000406 Tue Sep 13 02:06:48 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :0494    Adding gNB to the list of served gNBs
+000407 Tue Sep 13 02:06:50 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000408 Tue Sep 13 02:06:50 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000409 Tue Sep 13 02:06:50 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 1043.
+000410 Tue Sep 13 02:06:50 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0080    Received NGAP INITIAL_UE_MESSAGE GNB_UE_NGAP_ID 1207959552
+000411 Tue Sep 13 02:06:50 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0093    New Initial UE message received with gNB UE NGAP ID: 1207959552
+000412 Tue Sep 13 02:06:50 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0185    NGAP_FIND_PROTOCOLIE_BY_ID: /home/vagrant/magma/lte/gateway/c/core/oai/tasks/ngap/ngap_amf_nas_procedures.c 185: Optional ie is NULL
+000413 Tue Sep 13 02:06:50 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0195    NGAP_FIND_PROTOCOLIE_BY_ID: /home/vagrant/magma/lte/gateway/c/core/oai/tasks/ngap/ngap_amf_nas_procedures.c 195: Optional ie is NULL
+000414 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000415 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :0399    AMF_APP_INITIAL_UE_MESSAGE from NGAP,without S-TMSI. 
+000416 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :0405    UE context doesn't exist -> create one
+000417 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :0423    Creating new ue_m5gmm_context: [0x630000000000]for amf_ue_ngap_id: [1]
+000418 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :0446    UE context request received: 1
+ 
+000419 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000420 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :0455     Sending nas establishment indication to nas for ue_id = (1)
+000421 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :0461     Sending NAS Establishment Indication to NAS for ue_id = (1)
+000422 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0092    Decoding AMF Message Header
+000423 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0097    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x41
+000424 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0048    Header Decoded successfully
+000425 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0049    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x41
+000426 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0153    Decoding AMF message : REG_REQUEST
+000427 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0189    [REG_REQUEST] Msg plain decode bytes[0-26]
+7e 00 41 79 00 0d 01 00  f1 10 f0 ff 00 00 99 67  
+45 65 26 2e 02 f0 f0 
+000428 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000429 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000430 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 2113.
+000431 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000432 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0916    Associated sctp_assoc_id 834, gnb_ue_ngap_id 1207959552, amf_ue_ngap_id 1:HASH_TABLE_OK 
+000433 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_recv.cpp          :0353    New REGISTRATION_REQUEST processing
+000434 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_recv.cpp          :0453    SUPI as IMSI derived : 001f019976545662 
+000435 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_identity.cpp      :0199    amf_region_id 1 amf_set_id 1 amf_pointer 0
+000436 Tue Sep 13 02:06:51 2022 7F4A491EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 1X 
+000437 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/Registration.cpp      :0183    During initial registration request SUPI as IMSI converted to imsi64 1019976545662 = 
+000438 Tue Sep 13 02:06:51 2022 7F4A491EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [1019976545662]  No IMSI hashtable for this IMSI
+000439 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000440 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/Registration.cpp      :0391     decode_status.integrity_protected_message :0
+000441 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :0194    imsi [1019976545662]is going to be updated in imsi hash table, imsi_amf_ue_id_htbl 
+000442 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NGAP   tasks/amf/amf_authentication.cpp:0337    starting Authentication procedure
+000443 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_authentication.cpp:0973    Serving network name: 5G:mnc001.mcc001.3gppnetwork.org
+000444 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [001019976545662] auth-info
+000445 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000446 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas_proc.cpp          :0756    Handling imsi 1019976545662
+000447 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/nas_proc.cpp          :0772    Received Authentication Information Answer from Subscriberdb for UE ID = 1
+000448 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/nas_proc.cpp          :0800    INFORMING NAS ABOUT AUTH RESP SUCCESS got 1 vector(s)
+000449 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_authentication.cpp:1018    Security eksi:7, eksi=0
+000450 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_authentication.cpp:0973    Serving network name: 5G:mnc001.mcc001.3gppnetwork.org
+000451 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0067    Encoding NasMessage
+000452 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0120    Encoding AMF Message Header
+000453 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0126    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x56
+000454 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0249    Encoding AMF message : AUTH_REQUEST
+000455 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0631    [AUTH_REQUEST] Msg plain encode bytes[0-42]
+7e 00 56 00 02 00 00 21  1f 62 b6 12 4d 85 91 72  
+b8 88 0e 42 af b0 71 62  20 10 61 7d 92 67 c5 6c  
+80 00 5d fc ee 2b 75 13  5b 8d 
+000456 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000457 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000458 Tue Sep 13 02:06:51 2022 7F4A491EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 1
+000459 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000460 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 272.
+000461 Tue Sep 13 02:06:51 2022 7F4A451E7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545662] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 1 AMF_UE_NGAP_ID = 1 gNB_UE_NGAP_ID = 1207959552
+000462 Tue Sep 13 02:06:51 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000463 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000464 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 688.
+000465 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0284    Received NGAP UPLINK_NAS_TRANSPORT message AMF_UE_NGAP_ID 1
+000466 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_itti_messagi:0062   [0] Sending NAS Uplink indication to NAS_AMF_APP, amf_ue_ngap_id = 1
+000467 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000468 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0092    Decoding AMF Message Header
+000469 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0097    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x57
+000470 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0048    Header Decoded successfully
+000471 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0049    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x57
+000472 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0153    Decoding AMF message : AUTH_RESPONSE
+000473 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0189    [AUTH_RESPONSE] Msg plain decode bytes[0-24]
+7e 00 57 2d 10 ca f2 42  c0 ff 99 8e f4 84 17 5d  
+22 e3 9a 27 09 
+000474 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000475 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_authentication.cpp:0546    Authentication  procedures complete for (ue_id=1)
+000476 Tue Sep 13 02:06:51 2022 7F4A491EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 1
+000477 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-EM tasks/amf/amf_authentication.cpp:0590    Timer:  Stopping Authentication Timer T3560 with id = 1
+000478 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_authentication.cpp:0668    Authentication of the UE is Successful
+000479 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/Registration.cpp      :0071     Authentication procedure is successful
+000480 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_data.cpp          :0117    ue_id= 1 cleared security context 
+000481 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_security_mode_cont:0305    Initiating security mode control procedure, KSI = 0
+000482 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_security_mode_cont:0536    Selected  NAS_SECURITY_ALGORITHMS_IA2 (choice num 0)
+000483 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_security_mode_cont:0551    Selected  NAS_SECURITY_ALGORITHMS_EA0 (choice num 0)
+000484 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_security_mode_cont:0407    5G CN encryption algorithm selected is (0) for UE ID 1smc_proc->ksi=0
+000485 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_security_mode_cont:0412    5G CN integrity algorithm selected is (2) for UE ID 1
+000486 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_sap.cpp           :0105    5GCN security context exists is new 1 KSI 0 SQN 0 count 0
+000487 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0067    Encoding NasMessage
+000488 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0120    Encoding AMF Message Header
+000489 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0126    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x5D
+000490 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0249    Encoding AMF message : SEC_MODE_COMMAND
+000491 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0631    [SEC_MODE_COMMAND] Msg plain encode bytes[0-9]
+7e 00 5d 02 00 02 f0 f0  e1 
+000492 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0841    No encryption of message according to security header type 0x00
+000493 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0259    Offset 6 = 7 - 1, hdr encode = 7, length = 19bytes = 9
+000494 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0984    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 dir DOWNLINK count.seq_num 0 count 0
+000495 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0067    m: (18 bytes) 00 00 00 00 0c 00 00 00 00 7e 00 5d 02 00 02 f0 f0 e1
+000496 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0068    Key: (16 bytes) ff dc ef 41 59 bc 6a 92 ab 90 7b 28 0f 36 ef b4
+000497 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0070    Message: (10 bytes) 00 7e 00 5d 02 00 02 f0 f0 e1
+000498 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0079    Out: (16 bytes) a0 ab 3b 5c 1b ae 43 5d 3c 04 94 7b 58 c1 1d 47
+000499 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :1005    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 returned MAC a0.ab.3b.5c(1547414432) for length 10direction 1, count 0
+000500 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0290    Incremented amf_security_context.dl_count.seq_num -> 1
+000501 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000502 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000503 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_security_mode_cont:0174    Timer: Security Mode Calling start_timer_T3560 
+000504 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000505 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 233.
+000506 Tue Sep 13 02:06:51 2022 7F4A451E7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545662] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 1 AMF_UE_NGAP_ID = 1 gNB_UE_NGAP_ID = 1207959552
+000507 Tue Sep 13 02:06:51 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000508 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000509 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 448.
+000510 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0284    Received NGAP UPLINK_NAS_TRANSPORT message AMF_UE_NGAP_ID 1
+000511 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_itti_messagi:0062   [0] Sending NAS Uplink indication to NAS_AMF_APP, amf_ue_ngap_id = 1
+000512 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000513 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0421    epd:7e, security_header_type:4, message_authentication_code:d2234bec, sequence_number:0
+000514 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0984    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 dir UPLINK count.seq_num 0 count 0
+000515 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0067    m: (60 bytes) 00 00 00 00 08 00 00 00 00 7e 00 5e 77 00 09 15 30 01 41 00 00 21 00 f0 71 00 21 7e 00 41 09 00 0d 01 00 f1 10 f0 ff 00 00 99 67 45 65 26 10 01 00 2e 02 f0 f0 50 02 00 00 53 01 02
+000516 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0068    Key: (16 bytes) ff dc ef 41 59 bc 6a 92 ab 90 7b 28 0f 36 ef b4
+000517 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0070    Message: (52 bytes) 00 7e 00 5e 77 00 09 15 30 01 41 00 00 21 00 f0 71 00 21 7e 00 41 09 00 0d 01 00 f1 10 f0 ff 00 00 99 67 45 65 26 10 01 00 2e 02 f0 f0 50 02 00 00 53 01 02
+000518 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0079    Out: (16 bytes) d2 23 4b ec 98 19 99 f1 a3 e8 61 68 bb dd e3 bf
+000519 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :1005    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 returned MAC d2.23.4b.ec(3964347346) for length 52direction 0, count 0
+000520 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0750    M5G_NAS_SECURITY_ALGORITHMS_5G_EA0 dir 0 ul_count.seq_num 0 dl_count.seq_num 1
+000521 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0092    Decoding AMF Message Header
+000522 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0097    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x5E
+000523 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0048    Header Decoded successfully
+000524 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0049    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x5E
+000525 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0153    Decoding AMF message : SEC_MODE_COMPLETE
+000526 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0189    [SEC_MODE_COMPLETE] Msg plain decode bytes[0-6]
+7e 04 d2 23 4b ec 00 7e  00 5e 77 00 09 15 30 01  
+41 00 00 21 00 f0 71 00  21 7e 00 41 09 00 0d 01  
+00 f1 10 f0 ff 00 00 99  67 45 65 26 10 01 00 2e  
+02 f0 f0 50 02 00 00 53  01 02 
+000527 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000528 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_Security_Mode.cpp :0049    Security mode procedures complete for (ue_id=1)
+000529 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_Security_Mode.cpp :0069    Timer: After stopping timer T3560 for securiy mode command with id: 2 and UE ID: 1
+000530 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1004    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 1
+000531 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1012    IMSI HANDLED =1019976545662
+000532 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [1019976545662] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000533 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000534 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000535 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/nas_proc.cpp          :0965    Received update location Answer from Subscriberdb for ue_id = 1
+000536 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/nas_proc.cpp          :0973    Received UL rate 2000000000 and DL rate 4000000000and BR unit: 0 
+000537 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000538 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/Registration.cpp      :0618    ue_id= 1Start REGISTRATION_ACCEPT procedures for UE 
+000539 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_as.cpp            :1314    Send AS connection establish confirmation for (ue_id = 1)
+000540 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_ue_context.cpp:0268    Stored UE id 1 
+000541 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0067    Encoding NasMessage
+000542 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0120    Encoding AMF Message Header
+000543 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0126    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x42
+000544 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0249    Encoding AMF message : REG_ACCEPT
+000545 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0631    [REG_ACCEPT] Msg plain encode bytes[0-35]
+7e 00 42 01 01 77 00 0b  f2 00 f1 10 01 00 40 43  
+dd 57 07 54 07 00 00 f1  10 00 00 01 15 02 01 01  
+5e 01 06 
+000546 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0841    No encryption of message according to security header type 0x00
+000547 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0259    Offset 6 = 7 - 1, hdr encode = 7, length = 47bytes = 35
+000548 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0984    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 dir DOWNLINK count.seq_num 1 count 1
+000549 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0067    m: (44 bytes) 00 00 00 01 0c 00 00 00 01 7e 00 42 01 01 77 00 0b f2 00 f1 10 01 00 40 43 dd 57 07 54 07 00 00 f1 10 00 00 01 15 02 01 01 5e 01 06
+000550 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0068    Key: (16 bytes) ff dc ef 41 59 bc 6a 92 ab 90 7b 28 0f 36 ef b4
+000551 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0070    Message: (36 bytes) 01 7e 00 42 01 01 77 00 0b f2 00 f1 10 01 00 40 43 dd 57 07 54 07 00 00 f1 10 00 00 01 15 02 01 01 5e 01 06
+000552 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0079    Out: (16 bytes) 96 27 21 60 ba ec c5 2c e3 3d 4e fd b9 21 4a 28
+000553 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :1005    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 returned MAC 96.27.21.60(1612785558) for length 36direction 1, count 1
+000554 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0290    Incremented amf_security_context.dl_count.seq_num -> 2
+000555 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000556 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000557 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/Registration.cpp      :0722    Timer: Registration_accept timer T3550 with id  3 Started for ue id: 1
+000558 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000559 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 3244.
+000560 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0560    Received Connection Establishment Confirm from AMF_APP for amf_ue_ngap_id = 1
+000561 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0790    security_capabilities_encryption_algorithms 0x00E0
+000562 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0802    security_capabilities_integrity_algorithms 0x00E0
+000563 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0814    security_capabilities_eUTRAencryption_algorithms 0x0000
+000564 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0827    security_capabilities_eUTRAintegrity_algorithms 0x0000
+000565 Tue Sep 13 02:06:51 2022 7F4A451E7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0876   [1019976545662] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 1 gNB_UE_NGAP_ID = 1207959552
+000566 Tue Sep 13 02:06:51 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000567 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000568 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 453.
+000569 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :0753    NGAP_FIND_PROTOCOLIE_BY_ID: /home/vagrant/magma/lte/gateway/c/core/oai/tasks/ngap/ngap_amf_handlers.c 753: Optional ie is NULL
+000571 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000570 Tue Sep 13 02:06:51 2022 7F4A409DE700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000572 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_ue_context.cpp:0823   [1019976545662] AMF_APP: UE Connection State changed to CONNECTED.enb_ue_s1ap_id =1207959552, mme_ue_s1ap_id = 1
+000573 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [1019976545662] UE STATE - CONNECTED.
+000574 Tue Sep 13 02:06:51 2022 7F4A409DE700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000575 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000576 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 511.
+000577 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :0181    [SCTP 834] No handler for procedureCode 44 in originating message
+000578 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000579 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 257.
+000580 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0284    Received NGAP UPLINK_NAS_TRANSPORT message AMF_UE_NGAP_ID 1
+000581 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_itti_messagi:0062   [0] Sending NAS Uplink indication to NAS_AMF_APP, amf_ue_ngap_id = 1
+000582 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000583 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0421    epd:7e, security_header_type:2, message_authentication_code:f7fc809e, sequence_number:1
+000584 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0984    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 dir UPLINK count.seq_num 1 count 1
+000585 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0067    m: (12 bytes) 00 00 00 01 08 00 00 00 01 7e 00 43
+000586 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0068    Key: (16 bytes) ff dc ef 41 59 bc 6a 92 ab 90 7b 28 0f 36 ef b4
+000587 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0070    Message: (4 bytes) 01 7e 00 43
+000588 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0079    Out: (16 bytes) f7 fc 80 9e e7 ec 82 9c 3b c7 4f 9e 87 44 b9 aa
+000589 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :1005    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 returned MAC f7.fc.80.9e(2659253495) for length 4direction 0, count 1
+000590 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0750    M5G_NAS_SECURITY_ALGORITHMS_5G_EA0 dir 0 ul_count.seq_num 1 dl_count.seq_num 2
+000591 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0092    Decoding AMF Message Header
+000592 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0097    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x43
+000593 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0048    Header Decoded successfully
+000594 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0049    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x43
+000595 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0153    Decoding AMF message : REG_COMPLETE
+000596 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0189    [REG_COMPLETE] Msg plain decode bytes[0-6]
+7e 02 f7 fc 80 9e 01 7e  00 43 
+000597 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000598 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/Registration.cpp      :0884    AMFAS-SAP - received registration complete message for ue_id =1
+000599 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000600 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/Registration.cpp      :0817    Timer: after stop registration timer T3550 with id = 3
+000601 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/Registration.cpp      :0989    UE current state is 2
+000602 Tue Sep 13 02:06:51 2022 7F4A409DE700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000603 Tue Sep 13 02:06:51 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000604 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 743.
+000605 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0284    Received NGAP UPLINK_NAS_TRANSPORT message AMF_UE_NGAP_ID 1
+000606 Tue Sep 13 02:06:51 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_itti_messagi:0062   [0] Sending NAS Uplink indication to NAS_AMF_APP, amf_ue_ngap_id = 1
+000607 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000608 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0421    epd:7e, security_header_type:2, message_authentication_code:ccf299a6, sequence_number:2
+000609 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0984    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 dir UPLINK count.seq_num 2 count 2
+000610 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0067    m: (38 bytes) 00 00 00 02 08 00 00 00 02 7e 00 67 01 00 08 2e 05 01 c1 ff ff 91 a1 12 05 81 25 0a 09 69 6e 74 65 72 6e 65 74 31
+000611 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0068    Key: (16 bytes) ff dc ef 41 59 bc 6a 92 ab 90 7b 28 0f 36 ef b4
+000612 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0070    Message: (30 bytes) 02 7e 00 67 01 00 08 2e 05 01 c1 ff ff 91 a1 12 05 81 25 0a 09 69 6e 74 65 72 6e 65 74 31
+000613 Tue Sep 13 02:06:51 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0079    Out: (16 bytes) cc f2 99 a6 66 b8 57 61 4f a8 a8 04 5e 09 03 0f
+000614 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :1005    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 returned MAC cc.f2.99.a6(2795107020) for length 30direction 0, count 2
+000615 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0750    M5G_NAS_SECURITY_ALGORITHMS_5G_EA0 dir 0 ul_count.seq_num 2 dl_count.seq_num 2
+000616 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0092    Decoding AMF Message Header
+000617 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0097    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x67
+000618 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0048    Header Decoded successfully
+000619 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0049    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x67
+000620 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0153    Decoding AMF message : ULNASTRANSPORT
+000621 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/SmfMessage.cpp  :0037    Decoding SMF message header
+000622 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/SmfMessage.cpp  :0043    EPD = 0x2E, PDUSessionID = 0x5, ProcedureTransactionID = 0x1,  MessageType = 0xC1
+000623 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/SmfMessage.cpp  :0110    Decoding SMF message : PDU_SESSION_ESTABLISHMENT_REQUEST
+000624 Tue Sep 13 02:06:51 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0189    [ULNASTRANSPORT] Msg plain decode bytes[0-32]
+7e 02 cc f2 99 a6 02 7e  00 67 01 00 08 2e 05 01  
+c1 ff ff 91 a1 12 05 81  25 0a 09 69 6e 74 65 72  
+6e 65 74 31 
+000625 Tue Sep 13 02:06:51 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [67]-name [ULNASTRANSPORT]
+000626 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_smf_send.cpp      :0079    AMF SMF Handler- Received PDN Connectivity Request message 
+000627 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0504    Copy the contents from message to context 
+000628 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0670    dnn selected internet1
+000629 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_REQUEST] Event triggered, PDU session state switches from [SESSION_NULL] to [CREATING] and UE state :[REGISTERED_CONNECTED]
+000630 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0256    Sending msg(grpc) to :[mobilityd] for ue: [001019976545662] ip-addr pdu session: [5]
+000631 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[141] name:[AMF_IP_ALLOCATION_RESPONSE]
+000632 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :0892    SMF context PDU address updated
+000633 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0202    Sending msg(grpc) to :[sessiond] for ue: [001019976545662] pdu session: [5]
+000634 Tue Sep 13 02:06:52 2022 7F4A429E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0110    Received GRPC SetSmfSessionContext request from SMF
+000635 Tue Sep 13 02:06:52 2022 7F4A429E2700 DEBUG UTIL   tasks/grpc_service/amf_service_h:0026    Sending itti_n11_create_pdu_session_response to AMF 
+000636 Tue Sep 13 02:06:52 2022 7F4A429E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0330    Received  GRPC SetSMSessionContextAccess request 
+000637 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[176] name:[N11_CREATE_PDU_SESSION_RESPONSE]
+000638 Tue Sep 13 02:06:52 2022 7F4A491EF700 WARNI AMF-AP tasks/amf/amf_app_handler.cpp   :0538    Warning PTI from sessiond 
+000639 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :0626    Sending message to gNB for PDUSessionResourceSetupRequest **n_active_pdus=1 **
+000640 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0304    [STATE_PDU_SESSION_ESTABLISHMENT_ACCEPT] Event triggered, PDU session state switches from [CREATING] to [ACTIVE] and UE state :[REGISTERED_CONNECTED]
+000641 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/ies/M5GQosFlowDe:0033     EncodeQosFlowDescriptor : 
+000642 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/ies/M5GQosFlowDe:0035    QFI = 0x9
+000643 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/ies/M5GQosFlowDe:0039    OperationCode = 0x20
+000644 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/ies/M5GQosFlowDe:0045    NumOfParams = 0X1
+000645 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/ies/M5GQosFlowPa:0032    EncodeQosFlowParamemeter: 
+000646 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/ies/M5GQosFlowPa:0036    5Qi iei = 0X1
+000647 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/ies/M5GQosFlowPa:0041    5Qi length = 0X1
+000648 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/ies/M5GQosFlowPa:0046    5Qi = 0X9
+000649 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0067    Encoding NasMessage
+000650 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0120    Encoding AMF Message Header
+000651 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0126    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x68
+000652 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0249    Encoding AMF message : DLNASTRANSPORT
+000653 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/SmfMessage.cpp  :0068    Encoding SMF message header
+000654 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/SmfMessage.cpp  :0074    EPD = 0x2E, PDUSessionID = 0x5, ProcedureTransactionID = 0x1,  MessageType = 0xC2
+000655 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/SmfMessage.cpp  :0176    Encoding SMF message : PDU_SESSION_ESTABLISHMENT_ACCEPT
+000656 Tue Sep 13 02:06:52 2022 7F4A491EF700 WARNI NAS5G  tasks/nas5g/src/ies/M5GPayloadCo:0063    Length missmatch : IE length : 76, Encoded SMF message length : 58
+000657 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0631    [DLNASTRANSPORT] Msg plain encode bytes[0-66]
+7e 00 68 01 00 3a 2e 05  01 c2 11 00 09 09 00 06  
+31 31 01 01 ff 09 06 06  01 c2 06 01 c2 29 05 01  
+fd ee 00 05 22 01 01 79  00 06 09 20 01 01 01 09  
+7b 00 01 80 25 0a 09 69  6e 74 65 72 6e 65 74 31  
+12 05 
+000658 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0841    No encryption of message according to security header type 0x00
+000659 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0259    Offset 6 = 7 - 1, hdr encode = 7, length = 103bytes = 66
+000660 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0984    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 dir DOWNLINK count.seq_num 2 count 2
+000661 Tue Sep 13 02:06:52 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0067    m: (75 bytes) 00 00 00 02 0c 00 00 00 02 7e 00 68 01 00 3a 2e 05 01 c2 11 00 09 09 00 06 31 31 01 01 ff 09 06 06 01 c2 06 01 c2 29 05 01 fd ee 00 05 22 01 01 79 00 06 09 20 01 01 01 09 7b 00 01 80 25 0a 09 69 6e 74 65 72 6e 65 74 31 12 05
+000662 Tue Sep 13 02:06:52 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0068    Key: (16 bytes) ff dc ef 41 59 bc 6a 92 ab 90 7b 28 0f 36 ef b4
+000663 Tue Sep 13 02:06:52 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0070    Message: (67 bytes) 02 7e 00 68 01 00 3a 2e 05 01 c2 11 00 09 09 00 06 31 31 01 01 ff 09 06 06 01 c2 06 01 c2 29 05 01 fd ee 00 05 22 01 01 79 00 06 09 20 01 01 01 09 7b 00 01 80 25 0a 09 69 6e 74 65 72 6e 65 74 31 12 05
+000664 Tue Sep 13 02:06:52 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0079    Out: (16 bytes) 56 ce e1 8a 22 15 ef 0c d0 8a 3c 23 a6 f6 ba cf
+000665 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :1005    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 returned MAC 56.ce.e1.8a(2330054230) for length 67direction 1, count 2
+000666 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0290    Incremented amf_security_context.dl_count.seq_num -> 3
+000667 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [68]-name [DLNASTRANSPORT]
+000668 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [95]-[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000669 Tue Sep 13 02:06:52 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[95] name:[NGAP_PDUSESSION_RESOURCE_SETUP_REQ]
+000670 Tue Sep 13 02:06:52 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 6013.
+000671 Tue Sep 13 02:06:52 2022 7F4A409DE700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000672 Tue Sep 13 02:06:52 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000673 Tue Sep 13 02:06:52 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 624.
+000674 Tue Sep 13 02:06:52 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :1856     Decode Successful 
+000675 Tue Sep 13 02:06:52 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :1906    NGAP_FIND_PROTOCOLIE_BY_ID: /home/vagrant/magma/lte/gateway/c/core/oai/tasks/ngap/ngap_amf_handlers.c 1906: Optional ie is NULL
+000676 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[94] name:[NGAP_PDUSESSIONRESOURCE_SETUP_RSP]
+000677 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :1069    Handling uplink PDU session setup response message
+000678 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :1122    gnb_gtp_teid_ipaddr: [c0 64 00 df]  and gnb_gtp_teid [00000001]
+000679 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/prepare_request_for_sm:0107    Sending PDU session Setup Request to SMF
+000680 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0109    Sending msg(grpc) to :[sessiond] for ue: [001019976545662]
+000681 Tue Sep 13 02:06:52 2022 7F4A3E9DA700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+000682 Tue Sep 13 02:06:52 2022 7F4A3E9DA700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+000683 Tue Sep 13 02:06:52 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+000684 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :1568    IMSI is 001019976545662 1019976545662
+000685 Tue Sep 13 02:06:52 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :1631    default case nothing to do
+000686 Tue Sep 13 02:07:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000687 Tue Sep 13 02:07:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000688 Tue Sep 13 02:07:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000689 Tue Sep 13 02:07:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000690 Tue Sep 13 02:07:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000691 Tue Sep 13 02:07:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000692 Tue Sep 13 02:07:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000693 Tue Sep 13 02:07:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000694 Tue Sep 13 02:07:26 2022 7F4A499F0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000695 Tue Sep 13 02:08:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000696 Tue Sep 13 02:08:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000697 Tue Sep 13 02:08:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000698 Tue Sep 13 02:08:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000699 Tue Sep 13 02:08:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000700 Tue Sep 13 02:08:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000701 Tue Sep 13 02:08:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000702 Tue Sep 13 02:08:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000703 Tue Sep 13 02:08:26 2022 7F4A499F0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000704 Tue Sep 13 02:08:54 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000705 Tue Sep 13 02:08:54 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000706 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 2177.
+000707 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_nas_procedur:0284    Received NGAP UPLINK_NAS_TRANSPORT message AMF_UE_NGAP_ID 1
+000708 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_itti_messagi:0062   [0] Sending NAS Uplink indication to NAS_AMF_APP, amf_ue_ngap_id = 1
+000709 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000710 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0421    epd:7e, security_header_type:2, message_authentication_code:bfc38e67, sequence_number:3
+000711 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0984    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 dir UPLINK count.seq_num 3 count 3
+000712 Tue Sep 13 02:08:54 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0067    m: (26 bytes) 00 00 00 03 08 00 00 00 03 7e 00 45 01 00 0b f2 00 f1 10 01 00 40 43 dd 57 07
+000713 Tue Sep 13 02:08:54 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0068    Key: (16 bytes) ff dc ef 41 59 bc 6a 92 ab 90 7b 28 0f 36 ef b4
+000714 Tue Sep 13 02:08:54 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0070    Message: (18 bytes) 03 7e 00 45 01 00 0b f2 00 f1 10 01 00 40 43 dd 57 07
+000715 Tue Sep 13 02:08:54 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0079    Out: (16 bytes) bf c3 8e 67 0f 52 77 34 89 76 d0 99 17 1d 67 ea
+000716 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :1005    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 returned MAC bf.c3.8e.67(1737409471) for length 18direction 0, count 3
+000717 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0750    M5G_NAS_SECURITY_ALGORITHMS_5G_EA0 dir 0 ul_count.seq_num 3 dl_count.seq_num 3
+000718 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0092    Decoding AMF Message Header
+000719 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0097    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x45
+000720 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0048    Header Decoded successfully
+000721 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0049    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x45
+000722 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0153    Decoding AMF message : DE_REG_REQUEST_UE_ORIGIN
+000723 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0189    [DE_REG_REQUEST_UE_ORIGIN] Msg plain decode bytes[0-20]
+7e 02 bf c3 8e 67 03 7e  00 45 01 00 0b f2 00 f1  
+10 01 00 40 43 dd 57 07  
+000724 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [45]-name [DE_REG_REQUEST_UE_ORIGIN]
+000725 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/deregistration_request:0057    UE originated deregistration procedures started
+000726 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/deregistration_request:0070    Access type is AMF_3GPP_ACCESS for deregistration request from UE
+000727 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/deregistration_request:0110    Processing deregistration UE-id = 1 type = 0
+000728 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_ue_context.cpp:0268    Stored UE id 1 
+000729 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_sap.cpp           :0105    5GCN security context exists is new 0 KSI 0 SQN 3 count 196608
+000730 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS-AM tasks/amf/amf_sap.cpp           :0136    5GCN security context exists knas_enc
+000731 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0067    Encoding NasMessage
+000732 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0120    Encoding AMF Message Header
+000733 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0126    EPD = 0x7E,  SecurityHeader =  0x0, MessageType = 0x46
+000734 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG NAS5G  tasks/nas5g/src/AmfMessage.cpp  :0249    Encoding AMF message : DE_REG_ACCEPT_UE_ORIGIN
+000735 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0631    [DE_REG_ACCEPT_UE_ORIGIN] Msg plain encode bytes[0-3]
+7e 00 46 
+000736 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0841    No encryption of message according to security header type 0x00
+000737 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0259    Offset 6 = 7 - 1, hdr encode = 7, length = 275bytes = 3
+000738 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0984    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 dir DOWNLINK count.seq_num 3 count 3
+000739 Tue Sep 13 02:08:54 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0067    m: (12 bytes) 00 00 00 03 0c 00 00 00 03 7e 00 46
+000740 Tue Sep 13 02:08:54 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0068    Key: (16 bytes) ff dc ef 41 59 bc 6a 92 ab 90 7b 28 0f 36 ef b4
+000741 Tue Sep 13 02:08:54 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0070    Message: (4 bytes) 03 7e 00 46
+000742 Tue Sep 13 02:08:54 2022 7F4A491EF700 TRACE NAS    lib/secu/nas_stream_eia2.c      :0079    Out: (16 bytes) 27 cb b8 5c 6e 25 3b 95 2b 89 ca 4c bb 01 f5 23
+000743 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :1005    M5G_NAS_SECURITY_ALGORITHMS_5G_IA2 returned MAC 27.cb.b8.5c(1555614503) for length 4direction 1, count 3
+000744 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/nas5g_message.cpp     :0290    Incremented amf_security_context.dl_count.seq_num -> 4
+000745 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [46]-name [DE_REG_ACCEPT_UE_ORIGIN]
+000746 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000747 Tue Sep 13 02:08:54 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000748 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 451.
+000749 Tue Sep 13 02:08:54 2022 7F4A451E7700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [1019976545662] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 1 AMF_UE_NGAP_ID = 1 gNB_UE_NGAP_ID = 1207959552
+000750 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/prepare_request_for_sm:0309    Sending msg(grpc) to :[sessiond] for ue: [001019976545662] release,  pdu session: [5]
+000751 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/deregistration_request:0276    Deleting Pdu Session id = 5 for ue_id = 1
+000752 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [1019976545662] Sending UE Context Release Cmd to NGAP for (ue_id = 1)
+UE Context Release Cause = (3)
+000753 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000754 Tue Sep 13 02:08:54 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000755 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 1178.
+000756 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :1617   [1019976545662] Releasing UE Context for UE id1
+000757 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :1634   [1019976545662] Removed NGAP UE 1
+000758 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000759 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 1
+000760 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :1424    Deleting UE context associated in AMF for amf_ue_ngap_id 1
+ 
+000761 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_ue_context.cpp:0546    amf_free_ue_context 
+000762 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_state_manager.:0074    Delete AMF ue state, 1019976545662
+000763 Tue Sep 13 02:08:54 2022 7F4A429E2700 INFO  UTIL   tasks/grpc_service/AmfServiceImp:0066    Received  GRPC SetSmNotificationContext request
+000764 Tue Sep 13 02:08:54 2022 7F4A429E2700 INFO  UTIL   tasks/grpc_service/amf_service_h:0042    Sending itti_n11_create_pdu_session_response to AMF 
+000765 Tue Sep 13 02:08:54 2022 7F4A491EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[177] name:[N11_NOTIFICATION_RECEIVED]
+000766 Tue Sep 13 02:08:54 2022 7F4A491EF700 DEBUG AMF-AP tasks/amf/amf_app_handler.cpp   :1568    IMSI is 001019976545662 1019976545662
+000767 Tue Sep 13 02:08:54 2022 7F4A491EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [1019976545662]  No IMSI hashtable for this IMSI
+000768 Tue Sep 13 02:08:54 2022 7F4A491EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :1573    UE context is null
+000769 Tue Sep 13 02:08:54 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0100    Ppid NGAP in sctp_itti_send_new_message_ind 
+000770 Tue Sep 13 02:08:54 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000771 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 454.
+000772 Tue Sep 13 02:08:54 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf_handlers.c  :1233     UE Context Release commplete: Ng context cleared. Ignore message for ueid 1
+000773 Tue Sep 13 02:08:58 2022 7F4A439E4700 DEBUG SCTP   tasks/sctp/sctp_itti_messaging.c:0128    Ppid match NGAP in sctp_itti_send_com_down_ind 
+000774 Tue Sep 13 02:08:58 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+000775 Tue Sep 13 02:08:58 2022 7F4A451E7700 DEBUG NGAP   tasks/ngap/ngap_amf.c           :0094    NGAP ZMQ latency: 1421.
+000776 Tue Sep 13 02:08:58 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 834, Reset Flag = 0. Connected UEs = 0 
+000777 Tue Sep 13 02:08:58 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 834. No Connected UEs. Reset Flag = 0
+000778 Tue Sep 13 02:08:58 2022 7F4A451E7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 834 
+000779 Tue Sep 13 02:09:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000780 Tue Sep 13 02:09:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000781 Tue Sep 13 02:09:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000782 Tue Sep 13 02:09:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000783 Tue Sep 13 02:09:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000784 Tue Sep 13 02:09:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000785 Tue Sep 13 02:09:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000786 Tue Sep 13 02:09:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000787 Tue Sep 13 02:09:26 2022 7F4A499F0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000788 Tue Sep 13 02:10:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000789 Tue Sep 13 02:10:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000790 Tue Sep 13 02:10:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000791 Tue Sep 13 02:10:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000792 Tue Sep 13 02:10:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000793 Tue Sep 13 02:10:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000794 Tue Sep 13 02:10:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000795 Tue Sep 13 02:10:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000796 Tue Sep 13 02:10:26 2022 7F4A499F0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000797 Tue Sep 13 02:11:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000798 Tue Sep 13 02:11:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000799 Tue Sep 13 02:11:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000800 Tue Sep 13 02:11:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000801 Tue Sep 13 02:11:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000802 Tue Sep 13 02:11:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000803 Tue Sep 13 02:11:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000804 Tue Sep 13 02:11:26 2022 7F4A4B9F4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000805 Tue Sep 13 02:11:26 2022 7F4A499F0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
