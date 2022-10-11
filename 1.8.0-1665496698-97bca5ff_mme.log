@@ -1,0 +1,1184 @@
+000379 Tue Oct 11 14:13:29 2022 7F527A339980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0588        Push PCO (DNS+MTU) ........: false
+000380 Tue Oct 11 14:13:29 2022 7F5270AEE700 DEBUG SCTP   tasks/sctp/sctpd_downlink_client:0169    Sctpd Init attempt 1
+000381 Tue Oct 11 14:13:29 2022 7F5270AEE700 DEBUG SCTP   tasks/sctp/sctpd_downlink_client:0169    Sctpd Init attempt 1
+000382 Tue Oct 11 14:13:29 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000383 Tue Oct 11 14:13:29 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_main.c    :0089    MME APP ZMQ latency: 320.
+000384 Tue Oct 11 14:13:29 2022 7F52712EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[118] name:[SCTP_AMF_SERVER_INITIALIZED]
+000385 Tue Oct 11 14:13:29 2022 7F52712EF700 DEBUG AMF-AP tasks/amf/amf_app_main.cpp      :0198    default message received
+000386 Tue Oct 11 14:13:31 2022 7F526FAEC700 DEBUG GTPv1- lib/openflow/controller/Openflow:0088    Openflow controller unknown callback 12
+000387 Tue Oct 11 14:13:31 2022 7F526FAEC700 DEBUG GTPv1- lib/openflow/controller/Openflow:0071    Openflow controller got packet-in message
+000388 Tue Oct 11 14:13:31 2022 7F526FAEC700 DEBUG GTPv1- lib/openflow/controller/PagingAp:0048    Handling packet-in message in paging app: tbl: 3
+000389 Tue Oct 11 14:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000390 Tue Oct 11 14:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000391 Tue Oct 11 14:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000392 Tue Oct 11 14:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000393 Tue Oct 11 14:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000394 Tue Oct 11 14:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000395 Tue Oct 11 14:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000396 Tue Oct 11 14:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000397 Tue Oct 11 14:14:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000398 Tue Oct 11 14:14:29 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000399 Tue Oct 11 14:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000400 Tue Oct 11 14:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000401 Tue Oct 11 14:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000402 Tue Oct 11 14:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000403 Tue Oct 11 14:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000404 Tue Oct 11 14:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000405 Tue Oct 11 14:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000406 Tue Oct 11 14:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000407 Tue Oct 11 14:15:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000408 Tue Oct 11 14:15:49 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000409 Tue Oct 11 14:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000410 Tue Oct 11 14:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000411 Tue Oct 11 14:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000412 Tue Oct 11 14:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000413 Tue Oct 11 14:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000414 Tue Oct 11 14:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000415 Tue Oct 11 14:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000416 Tue Oct 11 14:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000417 Tue Oct 11 14:16:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000418 Tue Oct 11 14:17:09 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000419 Tue Oct 11 14:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000420 Tue Oct 11 14:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000421 Tue Oct 11 14:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000422 Tue Oct 11 14:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000423 Tue Oct 11 14:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000424 Tue Oct 11 14:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000425 Tue Oct 11 14:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000426 Tue Oct 11 14:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000427 Tue Oct 11 14:17:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000428 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000429 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000430 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000431 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000432 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000433 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000434 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000435 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000436 Tue Oct 11 14:18:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000437 Tue Oct 11 14:18:28 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000430 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000431 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000432 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000433 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000434 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000435 Tue Oct 11 14:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000436 Tue Oct 11 14:18:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000437 Tue Oct 11 14:18:28 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000438 Tue Oct 11 14:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000439 Tue Oct 11 14:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000440 Tue Oct 11 14:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000441 Tue Oct 11 14:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000442 Tue Oct 11 14:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000443 Tue Oct 11 14:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000444 Tue Oct 11 14:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000445 Tue Oct 11 14:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000446 Tue Oct 11 14:19:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000447 Tue Oct 11 14:19:48 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000448 Tue Oct 11 14:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000449 Tue Oct 11 14:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000450 Tue Oct 11 14:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000451 Tue Oct 11 14:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000452 Tue Oct 11 14:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000453 Tue Oct 11 14:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000454 Tue Oct 11 14:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000455 Tue Oct 11 14:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000456 Tue Oct 11 14:20:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000457 Tue Oct 11 14:21:07 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000458 Tue Oct 11 14:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000459 Tue Oct 11 14:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000460 Tue Oct 11 14:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000461 Tue Oct 11 14:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000462 Tue Oct 11 14:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000463 Tue Oct 11 14:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000464 Tue Oct 11 14:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000465 Tue Oct 11 14:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000466 Tue Oct 11 14:21:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000467 Tue Oct 11 14:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000468 Tue Oct 11 14:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000469 Tue Oct 11 14:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000470 Tue Oct 11 14:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000471 Tue Oct 11 14:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000472 Tue Oct 11 14:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000473 Tue Oct 11 14:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000474 Tue Oct 11 14:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000475 Tue Oct 11 14:22:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000476 Tue Oct 11 14:22:27 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000477 Tue Oct 11 14:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000478 Tue Oct 11 14:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000479 Tue Oct 11 14:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000480 Tue Oct 11 14:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000481 Tue Oct 11 14:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000482 Tue Oct 11 14:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000483 Tue Oct 11 14:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000484 Tue Oct 11 14:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000485 Tue Oct 11 14:23:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000486 Tue Oct 11 14:23:47 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000487 Tue Oct 11 14:24:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000488 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000489 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000490 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000491 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000492 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000493 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000494 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000495 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+
+000489 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000490 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000491 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000492 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000493 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000494 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000495 Tue Oct 11 14:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000496 Tue Oct 11 14:25:06 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000497 Tue Oct 11 14:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000498 Tue Oct 11 14:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000499 Tue Oct 11 14:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000500 Tue Oct 11 14:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000501 Tue Oct 11 14:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000502 Tue Oct 11 14:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000503 Tue Oct 11 14:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000504 Tue Oct 11 14:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000505 Tue Oct 11 14:25:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000506 Tue Oct 11 14:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000507 Tue Oct 11 14:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000508 Tue Oct 11 14:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000509 Tue Oct 11 14:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000510 Tue Oct 11 14:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000511 Tue Oct 11 14:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000512 Tue Oct 11 14:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000513 Tue Oct 11 14:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000514 Tue Oct 11 14:26:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000515 Tue Oct 11 14:26:26 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000516 Tue Oct 11 14:27:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000517 Tue Oct 11 14:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000518 Tue Oct 11 14:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000519 Tue Oct 11 14:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000520 Tue Oct 11 14:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000521 Tue Oct 11 14:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000522 Tue Oct 11 14:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000523 Tue Oct 11 14:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000524 Tue Oct 11 14:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000525 Tue Oct 11 14:27:46 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000526 Tue Oct 11 14:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000527 Tue Oct 11 14:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000528 Tue Oct 11 14:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000529 Tue Oct 11 14:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000530 Tue Oct 11 14:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000531 Tue Oct 11 14:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000532 Tue Oct 11 14:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000533 Tue Oct 11 14:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000534 Tue Oct 11 14:28:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000535 Tue Oct 11 14:29:05 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000536 Tue Oct 11 14:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000537 Tue Oct 11 14:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000538 Tue Oct 11 14:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000539 Tue Oct 11 14:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000540 Tue Oct 11 14:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000541 Tue Oct 11 14:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000542 Tue Oct 11 14:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000543 Tue Oct 11 14:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000544 Tue Oct 11 14:29:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000545 Tue Oct 11 14:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000546 Tue Oct 11 14:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000547 Tue Oct 11 14:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000548 Tue Oct 11 14:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000549 Tue Oct 11 14:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000550 Tue Oct 11 14:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000551 Tue Oct 11 14:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000552 Tue Oct 11 14:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000553 Tue Oct 11 14:30:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000554 Tue Oct 11 14:30:25 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000555 Tue Oct 11 14:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000556 Tue Oct 11 14:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000557 Tue Oct 11 14:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000558 Tue Oct 11 14:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000559 Tue Oct 11 14:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000560 Tue Oct 11 14:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000561 Tue Oct 11 14:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000562 Tue Oct 11 14:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000563 Tue Oct 11 14:31:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000564 Tue Oct 11 14:31:44 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000565 Tue Oct 11 14:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000566 Tue Oct 11 14:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000567 Tue Oct 11 14:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000568 Tue Oct 11 14:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000569 Tue Oct 11 14:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000570 Tue Oct 11 14:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000571 Tue Oct 11 14:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000572 Tue Oct 11 14:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000573 Tue Oct 11 14:32:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000574 Tue Oct 11 14:33:04 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000575 Tue Oct 11 14:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000576 Tue Oct 11 14:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000577 Tue Oct 11 14:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000578 Tue Oct 11 14:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000579 Tue Oct 11 14:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000580 Tue Oct 11 14:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000581 Tue Oct 11 14:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000582 Tue Oct 11 14:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000583 Tue Oct 11 14:33:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000584 Tue Oct 11 14:34:24 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000585 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000586 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000587 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000588 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000589 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000590 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000591 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000592 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000593 Tue Oct 11 14:34:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000586 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000587 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000588 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000589 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000590 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000591 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000592 Tue Oct 11 14:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000593 Tue Oct 11 14:34:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000594 Tue Oct 11 14:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000595 Tue Oct 11 14:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000596 Tue Oct 11 14:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000597 Tue Oct 11 14:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000598 Tue Oct 11 14:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000599 Tue Oct 11 14:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000600 Tue Oct 11 14:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000601 Tue Oct 11 14:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000602 Tue Oct 11 14:35:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000603 Tue Oct 11 14:35:43 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000604 Tue Oct 11 14:36:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000605 Tue Oct 11 14:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000606 Tue Oct 11 14:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000607 Tue Oct 11 14:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000608 Tue Oct 11 14:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000609 Tue Oct 11 14:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000610 Tue Oct 11 14:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000611 Tue Oct 11 14:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000612 Tue Oct 11 14:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000613 Tue Oct 11 14:37:03 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000614 Tue Oct 11 14:37:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000615 Tue Oct 11 14:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000616 Tue Oct 11 14:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000617 Tue Oct 11 14:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000618 Tue Oct 11 14:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000619 Tue Oct 11 14:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000620 Tue Oct 11 14:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000621 Tue Oct 11 14:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000622 Tue Oct 11 14:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000623 Tue Oct 11 14:37:57 2022 7F526FAEC700 DEBUG GTPv1- lib/openflow/controller/Openflow:0071    Openflow controller got packet-in message
+000624 Tue Oct 11 14:37:57 2022 7F526FAEC700 DEBUG GTPv1- lib/openflow/controller/PagingAp:0048    Handling packet-in message in paging app: tbl: 3
+000625 Tue Oct 11 14:38:23 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000626 Tue Oct 11 14:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000627 Tue Oct 11 14:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000628 Tue Oct 11 14:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000629 Tue Oct 11 14:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000630 Tue Oct 11 14:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000631 Tue Oct 11 14:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000632 Tue Oct 11 14:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000633 Tue Oct 11 14:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000634 Tue Oct 11 14:38:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000635 Tue Oct 11 14:39:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000636 Tue Oct 11 14:39:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000637 Tue Oct 11 14:39:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000638 Tue Oct 11 14:39:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000639 Tue Oct 11 14:39:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000640 Tue Oct 11 14:39:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000641 Tue Oct 11 14:39:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000642 Tue Oct 11 14:39:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000643 Tue Oct 11 14:39:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000644 Tue Oct 11 14:39:42 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000646 Tue Oct 11 14:40:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000647 Tue Oct 11 14:40:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000648 Tue Oct 11 14:40:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000649 Tue Oct 11 14:40:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000650 Tue Oct 11 14:40:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000651 Tue Oct 11 14:40:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000652 Tue Oct 11 14:40:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000653 Tue Oct 11 14:40:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000654 Tue Oct 11 14:41:02 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000655 Tue Oct 11 14:41:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000656 Tue Oct 11 14:41:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000657 Tue Oct 11 14:41:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000658 Tue Oct 11 14:41:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000659 Tue Oct 11 14:41:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000660 Tue Oct 11 14:41:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000661 Tue Oct 11 14:41:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000662 Tue Oct 11 14:41:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000663 Tue Oct 11 14:41:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000664 Tue Oct 11 14:42:21 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000665 Tue Oct 11 14:42:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000666 Tue Oct 11 14:42:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000667 Tue Oct 11 14:42:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000668 Tue Oct 11 14:42:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000669 Tue Oct 11 14:42:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000670 Tue Oct 11 14:42:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000671 Tue Oct 11 14:42:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000672 Tue Oct 11 14:42:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000673 Tue Oct 11 14:42:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000674 Tue Oct 11 14:43:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000675 Tue Oct 11 14:43:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000676 Tue Oct 11 14:43:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000677 Tue Oct 11 14:43:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000678 Tue Oct 11 14:43:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000679 Tue Oct 11 14:43:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000680 Tue Oct 11 14:43:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000681 Tue Oct 11 14:43:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000682 Tue Oct 11 14:43:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000683 Tue Oct 11 14:43:41 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000684 Tue Oct 11 14:44:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000685 Tue Oct 11 14:44:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000686 Tue Oct 11 14:44:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000687 Tue Oct 11 14:44:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000688 Tue Oct 11 14:44:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000689 Tue Oct 11 14:44:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000690 Tue Oct 11 14:44:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000691 Tue Oct 11 14:44:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000692 Tue Oct 11 14:44:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000693 Tue Oct 11 14:45:01 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000694 Tue Oct 11 14:45:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000695 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000696 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000697 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000698 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000699 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000700 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000701 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000702 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+
+000696 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000697 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000698 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000699 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000700 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000701 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000702 Tue Oct 11 14:45:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000703 Tue Oct 11 14:46:20 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000704 Tue Oct 11 14:46:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000705 Tue Oct 11 14:46:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000706 Tue Oct 11 14:46:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000707 Tue Oct 11 14:46:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000708 Tue Oct 11 14:46:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000709 Tue Oct 11 14:46:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000710 Tue Oct 11 14:46:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000711 Tue Oct 11 14:46:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000712 Tue Oct 11 14:46:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000713 Tue Oct 11 14:47:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000714 Tue Oct 11 14:47:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000715 Tue Oct 11 14:47:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000716 Tue Oct 11 14:47:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000717 Tue Oct 11 14:47:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000718 Tue Oct 11 14:47:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000719 Tue Oct 11 14:47:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000720 Tue Oct 11 14:47:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000721 Tue Oct 11 14:47:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000722 Tue Oct 11 14:47:40 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000723 Tue Oct 11 14:48:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000724 Tue Oct 11 14:48:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000725 Tue Oct 11 14:48:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000726 Tue Oct 11 14:48:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000727 Tue Oct 11 14:48:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000728 Tue Oct 11 14:48:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000729 Tue Oct 11 14:48:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000730 Tue Oct 11 14:48:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000731 Tue Oct 11 14:48:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000732 Tue Oct 11 14:49:00 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000733 Tue Oct 11 14:49:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000734 Tue Oct 11 14:49:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000735 Tue Oct 11 14:49:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000736 Tue Oct 11 14:49:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000737 Tue Oct 11 14:49:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000738 Tue Oct 11 14:49:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000739 Tue Oct 11 14:49:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000740 Tue Oct 11 14:49:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000741 Tue Oct 11 14:49:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000742 Tue Oct 11 14:50:19 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000743 Tue Oct 11 14:50:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000744 Tue Oct 11 14:50:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000745 Tue Oct 11 14:50:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000746 Tue Oct 11 14:50:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000747 Tue Oct 11 14:50:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000748 Tue Oct 11 14:50:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000749 Tue Oct 11 14:50:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000750 Tue Oct 11 14:50:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000751 Tue Oct 11 14:50:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000752 Tue Oct 11 14:51:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000753 Tue Oct 11 14:51:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000754 Tue Oct 11 14:51:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000755 Tue Oct 11 14:51:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000756 Tue Oct 11 14:51:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000757 Tue Oct 11 14:51:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000758 Tue Oct 11 14:51:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000759 Tue Oct 11 14:51:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000760 Tue Oct 11 14:51:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000761 Tue Oct 11 14:51:39 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000762 Tue Oct 11 14:52:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000763 Tue Oct 11 14:52:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000764 Tue Oct 11 14:52:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000765 Tue Oct 11 14:52:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000766 Tue Oct 11 14:52:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000767 Tue Oct 11 14:52:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000768 Tue Oct 11 14:52:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000769 Tue Oct 11 14:52:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000770 Tue Oct 11 14:52:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000771 Tue Oct 11 14:52:59 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000772 Tue Oct 11 14:53:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000773 Tue Oct 11 14:53:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000774 Tue Oct 11 14:53:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000775 Tue Oct 11 14:53:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000776 Tue Oct 11 14:53:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000777 Tue Oct 11 14:53:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000778 Tue Oct 11 14:53:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000779 Tue Oct 11 14:53:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000780 Tue Oct 11 14:53:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000781 Tue Oct 11 14:54:18 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000782 Tue Oct 11 14:54:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000783 Tue Oct 11 14:54:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000784 Tue Oct 11 14:54:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000785 Tue Oct 11 14:54:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000786 Tue Oct 11 14:54:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000787 Tue Oct 11 14:54:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000788 Tue Oct 11 14:54:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000789 Tue Oct 11 14:54:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000790 Tue Oct 11 14:54:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000791 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000793 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000792 Tue Oct 11 14:55:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000794 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000795 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000796 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000797 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000798 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000799 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000800 Tue Oct 11 14:55:38 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000792 Tue Oct 11 14:55:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000794 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000795 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000796 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000797 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000798 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000799 Tue Oct 11 14:55:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000800 Tue Oct 11 14:55:38 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000801 Tue Oct 11 14:56:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000802 Tue Oct 11 14:56:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000803 Tue Oct 11 14:56:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000804 Tue Oct 11 14:56:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000805 Tue Oct 11 14:56:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000806 Tue Oct 11 14:56:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000807 Tue Oct 11 14:56:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000808 Tue Oct 11 14:56:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000809 Tue Oct 11 14:56:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000810 Tue Oct 11 14:56:57 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000811 Tue Oct 11 14:57:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000812 Tue Oct 11 14:57:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000813 Tue Oct 11 14:57:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000814 Tue Oct 11 14:57:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000815 Tue Oct 11 14:57:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000816 Tue Oct 11 14:57:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000817 Tue Oct 11 14:57:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000818 Tue Oct 11 14:57:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000819 Tue Oct 11 14:57:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000820 Tue Oct 11 14:58:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000821 Tue Oct 11 14:58:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000822 Tue Oct 11 14:58:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000823 Tue Oct 11 14:58:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000824 Tue Oct 11 14:58:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000825 Tue Oct 11 14:58:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000826 Tue Oct 11 14:58:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000827 Tue Oct 11 14:58:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000828 Tue Oct 11 14:58:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000829 Tue Oct 11 14:58:27 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000830 Tue Oct 11 14:59:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000831 Tue Oct 11 14:59:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000832 Tue Oct 11 14:59:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000833 Tue Oct 11 14:59:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000834 Tue Oct 11 14:59:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000835 Tue Oct 11 14:59:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000836 Tue Oct 11 14:59:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000837 Tue Oct 11 14:59:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000838 Tue Oct 11 14:59:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000839 Tue Oct 11 14:59:37 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000840 Tue Oct 11 15:00:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000841 Tue Oct 11 15:00:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000842 Tue Oct 11 15:00:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000843 Tue Oct 11 15:00:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000844 Tue Oct 11 15:00:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000845 Tue Oct 11 15:00:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000846 Tue Oct 11 15:00:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000847 Tue Oct 11 15:00:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000848 Tue Oct 11 15:00:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000849 Tue Oct 11 15:00:56 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000850 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000851 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000852 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000853 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000854 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000855 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000856 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000857 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000858 Tue Oct 11 15:01:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000851 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000852 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000853 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000854 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000855 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000856 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000857 Tue Oct 11 15:01:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000858 Tue Oct 11 15:01:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000859 Tue Oct 11 15:02:16 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000860 Tue Oct 11 15:02:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000861 Tue Oct 11 15:02:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000862 Tue Oct 11 15:02:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000863 Tue Oct 11 15:02:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000864 Tue Oct 11 15:02:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000865 Tue Oct 11 15:02:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000866 Tue Oct 11 15:02:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000867 Tue Oct 11 15:02:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000868 Tue Oct 11 15:02:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000869 Tue Oct 11 15:03:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000870 Tue Oct 11 15:03:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000871 Tue Oct 11 15:03:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000872 Tue Oct 11 15:03:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000873 Tue Oct 11 15:03:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000874 Tue Oct 11 15:03:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000875 Tue Oct 11 15:03:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000876 Tue Oct 11 15:03:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000877 Tue Oct 11 15:03:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000878 Tue Oct 11 15:03:35 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000879 Tue Oct 11 15:04:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000880 Tue Oct 11 15:04:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000881 Tue Oct 11 15:04:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000882 Tue Oct 11 15:04:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000883 Tue Oct 11 15:04:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000884 Tue Oct 11 15:04:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000885 Tue Oct 11 15:04:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000886 Tue Oct 11 15:04:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000887 Tue Oct 11 15:04:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000888 Tue Oct 11 15:04:55 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000889 Tue Oct 11 15:05:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000890 Tue Oct 11 15:05:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000891 Tue Oct 11 15:05:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000892 Tue Oct 11 15:05:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000893 Tue Oct 11 15:05:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000894 Tue Oct 11 15:05:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000895 Tue Oct 11 15:05:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000896 Tue Oct 11 15:05:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000897 Tue Oct 11 15:05:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000898 Tue Oct 11 15:06:15 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000899 Tue Oct 11 15:06:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000900 Tue Oct 11 15:06:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000901 Tue Oct 11 15:06:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000902 Tue Oct 11 15:06:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000903 Tue Oct 11 15:06:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000904 Tue Oct 11 15:06:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000905 Tue Oct 11 15:06:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000906 Tue Oct 11 15:06:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000907 Tue Oct 11 15:06:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000908 Tue Oct 11 15:07:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000909 Tue Oct 11 15:07:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000910 Tue Oct 11 15:07:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000911 Tue Oct 11 15:07:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000912 Tue Oct 11 15:07:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000913 Tue Oct 11 15:07:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000914 Tue Oct 11 15:07:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000915 Tue Oct 11 15:07:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000916 Tue Oct 11 15:07:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000917 Tue Oct 11 15:07:34 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000918 Tue Oct 11 15:08:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000919 Tue Oct 11 15:08:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000920 Tue Oct 11 15:08:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000921 Tue Oct 11 15:08:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000922 Tue Oct 11 15:08:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000923 Tue Oct 11 15:08:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000924 Tue Oct 11 15:08:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000925 Tue Oct 11 15:08:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000926 Tue Oct 11 15:08:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000927 Tue Oct 11 15:08:54 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000928 Tue Oct 11 15:09:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000929 Tue Oct 11 15:09:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000930 Tue Oct 11 15:09:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000931 Tue Oct 11 15:09:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000932 Tue Oct 11 15:09:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000933 Tue Oct 11 15:09:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000934 Tue Oct 11 15:09:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000935 Tue Oct 11 15:09:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000936 Tue Oct 11 15:09:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000937 Tue Oct 11 15:10:13 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000938 Tue Oct 11 15:10:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000939 Tue Oct 11 15:10:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000940 Tue Oct 11 15:10:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000941 Tue Oct 11 15:10:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000942 Tue Oct 11 15:10:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000943 Tue Oct 11 15:10:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000944 Tue Oct 11 15:10:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000945 Tue Oct 11 15:10:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000946 Tue Oct 11 15:10:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000947 Tue Oct 11 15:11:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000948 Tue Oct 11 15:11:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000949 Tue Oct 11 15:11:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000950 Tue Oct 11 15:11:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000951 Tue Oct 11 15:11:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000952 Tue Oct 11 15:11:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000953 Tue Oct 11 15:11:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000954 Tue Oct 11 15:11:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000955 Tue Oct 11 15:11:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000956 Tue Oct 11 15:11:33 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000957 Tue Oct 11 15:12:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000958 Tue Oct 11 15:12:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000959 Tue Oct 11 15:12:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000960 Tue Oct 11 15:12:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000961 Tue Oct 11 15:12:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000962 Tue Oct 11 15:12:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000963 Tue Oct 11 15:12:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000964 Tue Oct 11 15:12:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000965 Tue Oct 11 15:12:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000966 Tue Oct 11 15:12:53 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000967 Tue Oct 11 15:13:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000968 Tue Oct 11 15:13:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000969 Tue Oct 11 15:13:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000970 Tue Oct 11 15:13:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000971 Tue Oct 11 15:13:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000972 Tue Oct 11 15:13:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000973 Tue Oct 11 15:13:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000974 Tue Oct 11 15:13:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000975 Tue Oct 11 15:13:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000976 Tue Oct 11 15:14:12 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000977 Tue Oct 11 15:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000978 Tue Oct 11 15:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000979 Tue Oct 11 15:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000980 Tue Oct 11 15:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000981 Tue Oct 11 15:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000982 Tue Oct 11 15:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000983 Tue Oct 11 15:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000984 Tue Oct 11 15:14:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000985 Tue Oct 11 15:14:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000986 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000987 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000988 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000989 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000990 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000991 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000992 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000993 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000994 Tue Oct 11 15:15:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000995 Tue Oct 11 15:15:32 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000988 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000989 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+000990 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+000991 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+000992 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+000993 Tue Oct 11 15:15:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+000994 Tue Oct 11 15:15:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+000995 Tue Oct 11 15:15:32 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+000996 Tue Oct 11 15:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+000997 Tue Oct 11 15:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+000998 Tue Oct 11 15:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+000999 Tue Oct 11 15:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001000 Tue Oct 11 15:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001001 Tue Oct 11 15:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001002 Tue Oct 11 15:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001003 Tue Oct 11 15:16:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001004 Tue Oct 11 15:16:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001005 Tue Oct 11 15:16:51 2022 7F526A2E1700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001006 Tue Oct 11 15:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001007 Tue Oct 11 15:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001008 Tue Oct 11 15:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001009 Tue Oct 11 15:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001010 Tue Oct 11 15:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001011 Tue Oct 11 15:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001012 Tue Oct 11 15:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001013 Tue Oct 11 15:17:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001014 Tue Oct 11 15:17:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001015 Tue Oct 11 15:18:22 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001016 Tue Oct 11 15:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001017 Tue Oct 11 15:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001018 Tue Oct 11 15:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001019 Tue Oct 11 15:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001020 Tue Oct 11 15:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001021 Tue Oct 11 15:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001022 Tue Oct 11 15:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001023 Tue Oct 11 15:18:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001024 Tue Oct 11 15:18:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001025 Tue Oct 11 15:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001026 Tue Oct 11 15:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001027 Tue Oct 11 15:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001028 Tue Oct 11 15:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001029 Tue Oct 11 15:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001030 Tue Oct 11 15:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001031 Tue Oct 11 15:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001032 Tue Oct 11 15:19:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001033 Tue Oct 11 15:19:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001034 Tue Oct 11 15:19:31 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001035 Tue Oct 11 15:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001036 Tue Oct 11 15:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001037 Tue Oct 11 15:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001038 Tue Oct 11 15:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001039 Tue Oct 11 15:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001040 Tue Oct 11 15:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001041 Tue Oct 11 15:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001042 Tue Oct 11 15:20:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001043 Tue Oct 11 15:20:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001044 Tue Oct 11 15:20:50 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001045 Tue Oct 11 15:21:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001046 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001047 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001048 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001049 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001050 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001051 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001052 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001053 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+
+001047 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001048 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001049 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001050 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001051 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001052 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001053 Tue Oct 11 15:21:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001054 Tue Oct 11 15:22:10 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001055 Tue Oct 11 15:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001056 Tue Oct 11 15:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001057 Tue Oct 11 15:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001058 Tue Oct 11 15:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001059 Tue Oct 11 15:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001060 Tue Oct 11 15:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001061 Tue Oct 11 15:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001062 Tue Oct 11 15:22:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001063 Tue Oct 11 15:22:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001064 Tue Oct 11 15:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001065 Tue Oct 11 15:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001066 Tue Oct 11 15:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001067 Tue Oct 11 15:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001068 Tue Oct 11 15:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001069 Tue Oct 11 15:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001070 Tue Oct 11 15:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001071 Tue Oct 11 15:23:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001072 Tue Oct 11 15:23:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001073 Tue Oct 11 15:23:30 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001074 Tue Oct 11 15:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001075 Tue Oct 11 15:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001076 Tue Oct 11 15:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001077 Tue Oct 11 15:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001078 Tue Oct 11 15:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001079 Tue Oct 11 15:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001080 Tue Oct 11 15:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001081 Tue Oct 11 15:24:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001082 Tue Oct 11 15:24:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001083 Tue Oct 11 15:24:49 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001084 Tue Oct 11 15:25:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001085 Tue Oct 11 15:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001086 Tue Oct 11 15:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001087 Tue Oct 11 15:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001088 Tue Oct 11 15:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001089 Tue Oct 11 15:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001090 Tue Oct 11 15:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001091 Tue Oct 11 15:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001092 Tue Oct 11 15:25:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001093 Tue Oct 11 15:26:09 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001094 Tue Oct 11 15:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001095 Tue Oct 11 15:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001096 Tue Oct 11 15:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001097 Tue Oct 11 15:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001098 Tue Oct 11 15:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001099 Tue Oct 11 15:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001100 Tue Oct 11 15:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001101 Tue Oct 11 15:26:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001102 Tue Oct 11 15:26:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001103 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001104 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001105 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001106 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001107 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001108 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001109 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001110 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001111 Tue Oct 11 15:27:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001112 Tue Oct 11 15:27:29 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001105 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001106 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001107 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001108 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001109 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001110 Tue Oct 11 15:27:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001111 Tue Oct 11 15:27:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001112 Tue Oct 11 15:27:29 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001113 Tue Oct 11 15:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001114 Tue Oct 11 15:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001115 Tue Oct 11 15:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001116 Tue Oct 11 15:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001117 Tue Oct 11 15:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001118 Tue Oct 11 15:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001119 Tue Oct 11 15:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001120 Tue Oct 11 15:28:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001121 Tue Oct 11 15:28:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001122 Tue Oct 11 15:28:48 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001123 Tue Oct 11 15:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001124 Tue Oct 11 15:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001125 Tue Oct 11 15:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001126 Tue Oct 11 15:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001127 Tue Oct 11 15:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001129 Tue Oct 11 15:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001128 Tue Oct 11 15:29:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001130 Tue Oct 11 15:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001131 Tue Oct 11 15:29:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001132 Tue Oct 11 15:30:08 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001133 Tue Oct 11 15:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001134 Tue Oct 11 15:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001135 Tue Oct 11 15:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001136 Tue Oct 11 15:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001137 Tue Oct 11 15:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001138 Tue Oct 11 15:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001139 Tue Oct 11 15:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001140 Tue Oct 11 15:30:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001141 Tue Oct 11 15:30:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001142 Tue Oct 11 15:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001143 Tue Oct 11 15:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001144 Tue Oct 11 15:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001145 Tue Oct 11 15:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001146 Tue Oct 11 15:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001147 Tue Oct 11 15:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001148 Tue Oct 11 15:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001149 Tue Oct 11 15:31:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001150 Tue Oct 11 15:31:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001151 Tue Oct 11 15:31:28 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001152 Tue Oct 11 15:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001153 Tue Oct 11 15:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001154 Tue Oct 11 15:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001155 Tue Oct 11 15:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001156 Tue Oct 11 15:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001157 Tue Oct 11 15:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001158 Tue Oct 11 15:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001159 Tue Oct 11 15:32:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001160 Tue Oct 11 15:32:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001161 Tue Oct 11 15:32:47 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001163 Tue Oct 11 15:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001164 Tue Oct 11 15:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001165 Tue Oct 11 15:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001166 Tue Oct 11 15:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001167 Tue Oct 11 15:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001168 Tue Oct 11 15:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001169 Tue Oct 11 15:33:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001170 Tue Oct 11 15:33:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001171 Tue Oct 11 15:34:07 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001172 Tue Oct 11 15:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001173 Tue Oct 11 15:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001174 Tue Oct 11 15:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001175 Tue Oct 11 15:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001176 Tue Oct 11 15:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001177 Tue Oct 11 15:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001178 Tue Oct 11 15:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001179 Tue Oct 11 15:34:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001180 Tue Oct 11 15:34:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001181 Tue Oct 11 15:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001182 Tue Oct 11 15:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001183 Tue Oct 11 15:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001184 Tue Oct 11 15:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001185 Tue Oct 11 15:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001186 Tue Oct 11 15:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001187 Tue Oct 11 15:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001188 Tue Oct 11 15:35:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001189 Tue Oct 11 15:35:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001190 Tue Oct 11 15:35:26 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001191 Tue Oct 11 15:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001192 Tue Oct 11 15:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001193 Tue Oct 11 15:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001194 Tue Oct 11 15:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001195 Tue Oct 11 15:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001196 Tue Oct 11 15:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001197 Tue Oct 11 15:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001198 Tue Oct 11 15:36:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001199 Tue Oct 11 15:36:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001200 Tue Oct 11 15:36:46 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001201 Tue Oct 11 15:36:56 2022 7F526FAEC700 DEBUG GTPv1- lib/openflow/controller/Openflow:0071    Openflow controller got packet-in message
+001202 Tue Oct 11 15:36:56 2022 7F526FAEC700 DEBUG GTPv1- lib/openflow/controller/PagingAp:0048    Handling packet-in message in paging app: tbl: 3
+001203 Tue Oct 11 15:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001204 Tue Oct 11 15:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001205 Tue Oct 11 15:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001206 Tue Oct 11 15:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001207 Tue Oct 11 15:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001208 Tue Oct 11 15:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001209 Tue Oct 11 15:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001210 Tue Oct 11 15:37:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
+001211 Tue Oct 11 15:37:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001212 Tue Oct 11 15:38:06 2022 7F5268ADE700 DEBUG UTIL   tasks/grpc_service/S1apServiceIm:0041    Received GetENBState GRPC request
+001213 Tue Oct 11 15:38:24 2022 7F5271AF0700 DEBUG MME-AP tasks/mme_app/mme_app_state_mana:0094    Inside get_state with read_from_db 0
+001214 Tue Oct 11 15:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0045    ======================================= STATISTICS ============================================
+
+001215 Tue Oct 11 15:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0048                   |   Current Status|
+001216 Tue Oct 11 15:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0049    Attached UEs   |          0      |
+001217 Tue Oct 11 15:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0051    Connected UEs  |          0      |
+001218 Tue Oct 11 15:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0053    Connected eNBs |          0      |
+001219 Tue Oct 11 15:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0055    Default Bearers|          0      |
+001220 Tue Oct 11 15:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0057    S1-U Bearers   |          0      |
+
+001221 Tue Oct 11 15:38:24 2022 7F5273AF4700 DEBUG SERVIC tasks/service303/service303_mme_:0060    ======================================= STATISTICS ============================================
+
